@@ -22,7 +22,7 @@ while txtlen > 1634:
     openSans = ImageFont.truetype("fonts/OpenSans-Italic.ttf", font_pt)
     txtlen = tl.textlength(quote, font=openSans)
 
-tl.text((836, 104), quote, font=openSans, fill=(255, 216, 255), align="center", anchor="ms")
-tl.text((836, 142), author, font=openSansAuth, fill=(255, 216, 255), align="center", anchor="mm")
+tl.text((836, 90), quote, font=openSans, fill=(255, 216, 255), align="center", anchor="ms")
+tl.text((836, 128), author, font=openSansAuth, fill=(255, 216, 255), align="center", anchor="mm")
 
 bgimg.save("quote.png")
