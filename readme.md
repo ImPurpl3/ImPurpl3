@@ -1,3 +1,3 @@
 # currently testing readme for cool feature...
 
-![](https://skillicons.dev/icons?i=js,html,css,wasm,py,cs,dotnet,bots,twitter,discord,instagram,ps,pr,php,ruby,perl,c,c,c,c,c,c,c,c,c,c,c,c,c,bash)
+![](testquote.png)
