@@ -1,3 +1,3 @@
 # currently testing readme for cool feature...
 
-![](testquote.png)
+![](quote.png)
