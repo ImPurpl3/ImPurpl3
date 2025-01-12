@@ -9,14 +9,14 @@ limiter = Limiter(
     get_remote_address,
     app=app,
     storage_uri="memcached://localhost:11211",
-    default_limits=["200 per day", "50 per hour"],
+    default_limits=["200 per day", "50 per hour"]
 )
 
-@app.route("/quote/Rk3Uyk0GVcQZVsBC5iI0kJzSmEY")
+@app.route("/quote/pDw4y9YgKoC")
 @limiter.limit("100 per day")
 def quote():
     rmquote.genquote()
     return send_file("quote.png", mimetype='image/png')
 
 if __name__ == "__main__": 
-    app.run(debug=True)
+    app.run()
