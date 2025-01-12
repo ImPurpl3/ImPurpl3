@@ -1,3 +1,3 @@
 # currently testing readme for cool feature...
 
-![](quote.png)
+![](https://purpl3.cloud/quote/pDw4y9YgKoC)
